@@ -22,3 +22,29 @@ git checkout your_branch_name
 npm run dev
 ```
 
+
+
+## উদাহরণ
+
+```typescript
+src/
+│
+├── assets/              →  আইকন, data
+│
+├── components/          → ছোট ছোট reusable কম্পোনেন্ট
+│   ├── car/             → Car related component (CarCard, CarFilter, CarPrice etc.)
+│   ├── common/          → Button, Input, Badge, Loader, etc.
+│   └── layout/          → Navbar, Footer, Sidebar
+│
+├── pages/               → Page-level UI
+│   ├── home/            → Home.jsx এর সেকশন যেমন Hero.jsx, Popular_car.jsx
+│   ├── category/        → Category.jsx
+│   └── Error.jsx        → Error page
+├── App.jsx              → Main layout Wrapper
+└── main.jsx             → ReactDOM entry
+
+
+
+
+
+```
