@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from '../../hero'
 import Popular_car from './Popular_car'
+import Hero from './Hero'
 
 const Home = () => {
   return (
