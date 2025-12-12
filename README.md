@@ -1,6 +1,7 @@
 ### Project Name : Vehicle Rental System – Backend API
 
 GitHub Repo: [Repo Link](https://github.com/sujonbiswasdev/TeamWork-3.git)
+Figma Link : [Link](https://www.figma.com/design/TWC4L9nYAyMLqZq0OifQDz/Car-Rent-Website-Design---Pickolab-Studio--Community---Copy-?node-id=20-7510&t=AqOFGpX6zOZRF5HW-1)
 
 ### Setup & Usage Instructions
 ### Step 1. Clone the Repository
