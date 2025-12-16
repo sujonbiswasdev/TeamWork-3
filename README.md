@@ -12,6 +12,7 @@ cd TeamWork-3
 ### Step 2. Install Dependencies
 ```bash
 npm install
+npm install -D @tailwindcss/vite
 ```
 ### Step 3. switch branch
 ```bash
