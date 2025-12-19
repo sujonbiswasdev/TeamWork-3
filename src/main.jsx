@@ -7,6 +7,10 @@ import Home from './pages/home/Home.jsx'
 import Category from './pages/category/Category.jsx'
 import Error from './pages/Error/Error.jsx'
 import { RouterProvider } from 'react-router/dom'
+import Post from './components/common/Post.jsx'
+import Update from './components/common/Update.jsx'
+import Updatecategory from './components/common/Update-category.jsx'
+import Signleget_cetagory from './components/common/Signleget_cetagory.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,12 +22,24 @@ const router = createBrowserRouter([
         element:<Home/>
       },
       {
+        path:"/add-car",
+        element:<Post/>
+      },
+      {
+        path:"/update-car/:id",
+        element:<Update/>
+      },
+      {
         path:"/category",
         element:<Category/>
       },
+      {
+        path:"/category-update/:id",
+        element:<Updatecategory/>
+      },
        {
         path:"/category/:id",
-        element:<Category/>
+        element:<Signleget_cetagory/>
       },
       {
         path:"*",
